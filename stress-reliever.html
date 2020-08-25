@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html>
+	<head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Stress Reliever</title>
+        <style>
+            title{
+                color: white;
+                size: 14px;
+            }
+        </style>
+        <link type = "text/css" rel="stylesheet" href="css/simple.css"
+        <link rel="stylesheet" href="css/w3.css">
+        <meta charset = "utf-8"
+	</head>
+	<body class = "menu">
+        <li class = "q">Stress Reliever</li>
+        <ul>
+          <li><a class="active" href="stress-reliever.html">Stress Reliever</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about-me.html">About me</a></li>
+          <li><a href="hobbies.html">Hobbies and Interests</a></li>
+          <li><a href="AlienInvaders-master/Alien_Invaders_Index.html">Alien Invaders</a></li>
+          <li><a href="https://www.google.com.au/search?q=play%20solitaire"> Google Solitare</a></li>
+          <li><a href="https://www.google.com.au/search?q=play%20minesweeper"> Google Minesweeper</a></li>
+          <li><a href="https://www.google.com.au/search?q=play%20snake"> Google Snake</a></li>
+      </ul>
+        </body>
+      <style>
+        body.menu {
+            border-style: solid;
+            border-width: 1px;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: black;
+        }
+        body.menu li {
+            list-style-type: none;
+            display: inline;
+            margin-right: 10px;
+            margin-left: 10px;
+        }
+        body.menu li a {
+            color: white;
+            text-decoration: none;
+        }
+        </style>
+        <body>
+          
+        <h2>Buttons</h2>
+        <style>
+        h2{
+            color:white;
+            size: 5px;
+        }
+        </style>
+<style>
+    .example1 {
+     height: 50px;	
+     overflow: hidden;
+     position: relative;
+    }
+    .example1 h3 {
+     font-size: 3em;
+     color: limegreen;
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     margin: 0;
+     line-height: 50px;
+     text-align: center;
+     /* Starting position */
+     -moz-transform:translateX(100%);
+     -webkit-transform:translateX(100%);	
+     transform:translateX(100%);
+     /* Apply animation to this element */	
+     -moz-animation: example1 15s linear infinite;
+     -webkit-animation: example1 15s linear infinite;
+     animation: example1 15s linear infinite;
+    }
+    /* Move it (define the animation) */
+    @-moz-keyframes example1 {
+     0%   { -moz-transform: translateX(100%); }
+     100% { -moz-transform: translateX(-100%); }
+    }
+    @-webkit-keyframes example1 {
+     0%   { -webkit-transform: translateX(100%); }
+     100% { -webkit-transform: translateX(-100%); }
+    }
+    @keyframes example1 {
+     0%   { 
+     -moz-transform: translateX(100%); /* Firefox bug fix */
+     -webkit-transform: translateX(100%); /* Firefox bug fix */
+     transform: translateX(100%); 		
+     }
+     100% { 
+     -moz-transform: translateX(-100%); /* Firefox bug fix */
+     -webkit-transform: translateX(-100%); /* Firefox bug fix */
+     transform: translateX(-100%); 
+     }
+    }
+    </style>
+    
+    <!-- HTML -->	
+    <div class="example1">
+    <h3>Have Fun! </h3>
+    </div>
+    <marquee behavior="scroll" direction="left" scrollamount="10" id="marquee2">
+    <button>Click me</button>
+    <button>Click me</button>
+    <button>Click me</button>
+    <button>Click me</button>
+    <button>Click me</button>
+    <button>Click me</button>
+    <button>Click me</button>
+    <button>Click me</button>
+    <button>Click me</button>
+    <button>Click me</button>
+    <button>Click me</button>
+    <button>Click me</button>
+    <button>Click me</button>
+    <button>Click me</button>
+    <button>Click me</button>
+    <button>Click me</button>
+    <button>Click me</button>
+    <button>Click me</button>
+    <button>Click me</button>
+    <button>Click me</button>
+    <button>Click me</button>
+    <button>Click me</button>
+    <button>Click me</button>
+    <button>Click me</button>
+    <button>Click me</button>
+    <button>Click me</button>
+    <button>Click me</button>
+    <button>Click me</button>
+    <button>Click me</button>
+    <button>Click me</button>
+    <button>Click me</button>
+    <button>Click me</button>
+
+    </marquee>
+    <marquee behavior="scroll" direction="right" scrollamount="10" id="marquee3">
+        <button>Click me</button>
+        <button>Click me</button>
+        <button>Click me</button>
+        <button>Click me</button>
+        <button>Click me</button>
+        <button>Click me</button>
+        <button>Click me</button>
+        <button>Click me</button>
+        <button>Click me</button>
+        <button>Click me</button>
+        <button>Click me</button>
+        <button>Click me</button>
+        <button>Click me</button>
+        <button>Click me</button>
+        <button>Click me</button>
+        <button>Click me</button>
+        <button>Click me</button>
+        <button>Click me</button>
+        <button>Click me</button>
+        <button>Click me</button>
+        <button>Click me</button>
+        <button>Click me</button>
+        <button>Click me</button>
+        <button>Click me</button>
+        <button>Click me</button>
+        <button>Click me</button>
+        <button>Click me</button>
+        <button>Click me</button>
+        <button>Click me</button>
+        <button>Click me</button>
+        <button>Click me</button>
+        <button>Click me</button>
+    </marquee>
+
+    <br>
+    <br>
+    <br>
+
+    <input type="button" value="Stop the top button line." onClick="document.getElementById('marquee2').stop();"/>
+    <input type="button" value="Start the top button line." onClick="document.getElementById('marquee2').start();"/><br />
+    <input type="button" value="Stop the bottom button line." onClick="document.getElementById('marquee3').stop();"/>
+    <input type="button" value="Start the bottom button line" onClick="document.getElementById('marquee3').start();"/>
+   
+
+        <h2>Checkboxes</h2>
+        <style>
+            h2{
+                color:greenyellow;
+                size: 18px;
+            }
+        </style>
+   <marquee behavior="scroll" direction="left" scrollamount="10" id="marquee4">
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value="">
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value="">
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value="">
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value="">
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value="">
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value="">
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value="">
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value="">
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value="">
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value="">
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value="">
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value="">
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value="">
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value="">
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value="">
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value="">
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value="">
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value="">
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value="">
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value="">
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value="">
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value="">
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value="">
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value="">
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value="">
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value="">
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value="">
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value="">
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value="">
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value="">
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value="">
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value="">
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value="">
+      <input type="checkbox" name="fruit" value=""> 
+      <input type="checkbox" name="fruit" value=""> 
+
+      </marquee>
+      <marquee behavior="scroll" direction="right" scrollamount="10" id="marquee5">
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value="">
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value="">
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value="">
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value="">
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value="">
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value="">
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value="">
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value="">
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value="">
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value="">
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value="">
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value="">
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value="">
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value="">
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value="">
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value="">
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value="">
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value="">
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value="">
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value="">
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value="">
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value="">
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value="">
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value="">
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value="">
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value="">
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value="">
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value="">
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value="">
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value="">
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value="">
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value="">
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value="">
+          <input type="checkbox" name="fruit" value=""> 
+          <input type="checkbox" name="fruit" value=""> 
+  
+      </marquee>
+      <input type="button" value="Stop the top button line." onClick="document.getElementById('marquee4').stop();"/>
+      <input type="button" value="Start the top button line." onClick="document.getElementById('marquee4').start();"/><br />
+      <input type="button" value="Stop the bottom button line." onClick="document.getElementById('marquee5').stop();"/>
+      <input type="button" value="Start the bottom button line" onClick="document.getElementById('marquee5').start();"/>
+
+
+        <h2>Radio Buttons</h2>
+        
+        <input type="radio" name="" value="male"> 
+        <input type="radio" name="gender" value="female"> 
+        <input type="radio" name="gender" value="unknown">
+        <input type="radio" name="gender" value="male"> 
+        <input type="radio" name="gender" value="female"> 
+        <input type="radio" name="gender" value="unknown"> 
+        <input type="radio" name="gender" value="male"> 
+        <input type="radio" name="gender" value="female"> 
+        <input type="radio" name="gender" value="unknown"> 
+        <input type="radio" name="gender" value="male"> 
+        <input type="radio" name="gender" value="female"> 
+        <input type="radio" name="gender" value="unknown"> 
+        <input type="radio" name="gender" value="male"> 
+        <input type="radio" name="gender" value="female"> 
+        <input type="radio" name="gender" value="unknown"> 
+        <input type="radio" name="gender" value="male"> 
+        <input type="radio" name="gender" value="female"> 
+        <input type="radio" name="gender" value="unknown"> 
+        <input type="radio" name="gender" value="male"> 
+        <input type="radio" name="gender" value="female"> 
+        <input type="radio" name="gender" value="unknown"> 
+        <input type="radio" name="gender" value="male"> 
+        <input type="radio" name="gender" value="female"> 
+        <input type="radio" name="gender" value="unknown"> 
+        <input type="radio" name="gender" value="male"> 
+        <input type="radio" name="gender" value="female"> 
+        <input type="radio" name="gender" value="unknown"> 
+        <input type="radio" name="gender" value="male"> 
+        <input type="radio" name="gender" value="female"> 
+        <input type="radio" name="gender" value="unknown"> 
+        <input type="radio" name="gender" value="male"> 
+        <input type="radio" name="gender" value="female"> 
+        <input type="radio" name="gender" value="unknown"> 
+        <input type="radio" name="gender" value="male"> 
+        <input type="radio" name="gender" value="female"> 
+        <input type="radio" name="gender" value="unknown"> 
+        <input type="radio" name="gender" value="male"> 
+        <input type="radio" name="gender" value="female"> 
+        <input type="radio" name="gender" value="unknown"> 
+        <input type="radio" name="gender" value="male"> 
+        <input type="radio" name="gender" value="female"> 
+        <input type="radio" name="gender" value="unknown"> 
+        <input type="radio" name="gender" value="male"> 
+        <input type="radio" name="gender" value="female"> 
+        <input type="radio" name="gender" value="unknown"> 
+        <input type="radio" name="gender" value="male"> 
+        <input type="radio" name="gender" value="female"> 
+        <input type="radio" name="gender" value="unknown"> 
+        <input type="radio" name="gender" value="male"> 
+        <input type="radio" name="gender" value="female"> 
+        </body>
+        <html>
+
+        <h2>I will find you!:</h2>
+        <script type= "text/javascript" src= "geolocation.js" >
+        </script> <script type = "text/javascript" src = "http://maps.googleapis.com/maps/api/js?sensor=true" >
+        </script>
+        <p id = "msg" style = "width:450px;height:50px" ></p>
+        <p id = "map" style = "width:450px;height:200px"></p>
+
+        
+        <h2>Username and Password Input</h2>
+            Username:<br>
+            <style>
+                li{
+                    color: white;
+                }
+            </style>
+            <input type="text" name="username"><br>
+            Password:<br>
+            <input type="password" name="psw"><br>
+            <input type="submit" value="Submit">
+        </form> 
+
+
+<body>
+        <h2>Type Stuff and Press Submit</h2>
+        <form action="">
+        Stuff:<br>
+         <input type="text" name="a" value="Type Here"><br>
+        Things to do:<br>
+         <input type="text" name="FirstName" value="Type Here"><br>
+        Spamming:<br>
+         <input type="text" name="LastName" value="Type Here"><br>
+        Have fun:<br>
+         <input type="text" name="LastName" value="Type Here"><br>
+        <input type="submit" value="Submit">
+        </form>
+
+        <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+            <style>
+            .button {
+              padding: 15px 25px;
+              font-size: 24px;
+              text-align: center;
+              cursor: pointer;
+              outline: none;
+              color: #fff;
+              background-color: #4CAF50;
+              border: none;
+              border-radius: 15px;
+              box-shadow: 0 9px #999;
+            }
+            
+            .button:hover {background-color: #3e8e41}
+            
+            .button:active {
+              background-color: #3e8e41;
+              box-shadow: 0 5px #666;
+              transform: translateY(4px);
+            }
+            </style>
+            </head>
+            <body>
+            
+            <h2>Animated Buttons</h2>
+            
+            <button class="button">Click Me</button> 
+	</body>
+</html>
+<html>
+<head>
+  <br>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+</head>
+<body>
+
+<button class="button"><span>Hover </span></button>
+
+</body>
+</html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.button {
+  position: relative;
+  background-color: #4CAF50;
+  border: none;
+  font-size: 28px;
+  color: #FFFFFF;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.button:after {
+  content: "";
+  background: #90EE90;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px!important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+</style>
+</head>
+<body>
+ <br> 
+ <br>
+  <div class="box">Hover</div>
+  <style>
+    body {
+  color: #fff;
+  font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+   }
+    .box {
+      background: #2db34a;
+      border-radius: 6px;
+     cursor: pointer;
+     height: 95px;
+     line-height: 95px;
+     text-align: center;
+     transition-property: background;
+     transition-duration: 1s;
+     transition-timing-function: linear;
+     width: 95px;
+    }
+.box:hover {
+  background: #ff7b29;
+}
+  </style>
+
+<div class="notbox">Hover</div>
+
+<style>
+  body {
+   color: #fff;
+   font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+  }
+.notbox {
+   background: #2db34a;
+   border-radius: 6px;
+   cursor: pointer;
+   height: 95px;
+   line-height: 95px;
+   text-align: center;
+   transition-property: background, border-radius;
+   transition-duration: 1s;
+   transition-timing-function: linear;
+   width: 95px;
+  }
+  .notbox:hover {
+   background: #ff7b29;
+   border-radius: 50%;
+  }  
+</style>
+<button>Awesome Button</button>
+<style>
+  body {
+  font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+}
+button {
+   border: 0;
+   background: #0087cc;
+   border-radius: 4px;
+   box-shadow: 0 5px 0 #006599;
+   color: #fff;
+   cursor: pointer;
+   font: inherit;
+   margin: 0;
+   outline: 0;
+   padding: 12px 20px;
+   transition: all .1s linear;
+  }
+button:active {
+   box-shadow: 0 2px 0 #006599;
+   transform: translateY(3px);
+  }
+</style>
+
+<div class="stage">
+    <figure class="ball"></figure>
+</div>
+<style>
+  @keyframes slide {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  50% {
+    left: 244px;
+    top: 100px;
+  }
+  100% {
+    left: 488px;
+    top: 0;
+  }
+}
+.stage {
+  background: #eaeaed;
+  border-radius: 6px;
+  height: 150px;
+  position: relative;
+  min-width: 538px;
+}
+.stage:hover .ball {
+  animation-name: slide;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.stage:active .ball {
+  animation-play-state: paused;
+}
+.ball {
+  background: #2db34a;
+  border-radius: 50%;
+  height: 50px;
+  position: absolute;
+  width: 50px;
+}
+</style>
+<h1>Games</h1>
+<li class = "jk"><a href="AlienInvaders-master/Alien_Invaders_Index.html">Alien Invaders</a>
+  <style>
+    li.jk{
+      color: yellow;
+      size: 20px;
+      text-decoration: underline;
+    }
+    p{
+      color: white;
+      text-decoration: none;
+    }
+    iframe{
+      display: inline;
+
+    }
+  </style>
+<p>Click on the "Alien Invaders" to go to the game, or click on the link on the top.</p>
+<h2>Dragon Ball Z</h2>
+<iframe
+ width="450"
+ height="350"
+ src ="https://www.thepcmanwebsite.com/media/dragonball_z/">
+</iframe>
+<h2>Fuel Transport</h2>
+<iframe
+ width="450"
+ height="350"
+ src = "https://www.thepcmanwebsite.com/media/fuel_transport/">
+</iframe>
+<h2>Fishing Online</h2>
+<iframe
+ width="450"
+ height="350"
+ src ="https://www.thepcmanwebsite.com/media/fishing_season/">
+</iframe>
+<h2>Solitare</h2>
+<iframe
+ width="450"
+ height="350"
+ src ="https://www.thepcmanwebsite.com/media/flash_solitaire/">
+</iframe>
+<h2>Action Driving Game</h2>
+<iframe
+ width="450"
+ height="350"
+ src ="https://www.thepcmanwebsite.com/media/driving_game/">
+</iframe>
+
+
+
+
+
+<marquee behavior="scroll" direction="left"
+onmousedown="this.stop();"
+onmouseup="this.start();">
+<button>Click this button to stop it moving...</button>
+</marquee>
+
+<marquee behavior="scroll" direction="right"
+onmousedown="this.stop();"
+onmouseup="this.start();">
+<button>Click this button to stop it moving...</button>
+</marquee>
+
+<marquee behavior="scroll" direction="up"
+onmousedown="this.stop();"
+onmouseup="this.start();">
+<button>Click this button to stop it moving...</button>
+</marquee>
+
+<marquee behavior="scroll" direction="down"
+onmousedown="this.stop();"
+onmouseup="this.start();">
+<button>Click this button to stop it moving...</button>
+</marquee>
+
+<marque>
+<button>Button</button>
+</marque>
+
+<p>Source for the animated buttons and some CSS and HTML snippets is w3.com</p>
+<p>Enjoy responsibly, and remeber that I am not liable fr any loss, caused by waste of time, addiciton or anything for that matter. Stay cool, Ariz out!</p>
+</body>
+</html>
